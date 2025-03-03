@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.cls-1{fill:#fecb00;}.cls-2{fill:#d08b00;}.cls-2,.cls-3{fill-rule:evenodd;}.cls-3{fill:#db9300;}.cls-4{fill:#b17600;}
+.element {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    background-color: #2f4f4f;
+    color: #ffffff;
+  }
