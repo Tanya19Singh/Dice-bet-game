@@ -8,7 +8,7 @@ const PORT = process.env.PORT ||5000;
 
 app.use(bodyParser.json());
 app.use(cors({
-  origin: 'https://dice-bet-game-4.onrender.com/', // Replace with your frontend URL
+  origin: 'https://dice-bet-game-4.onrender.com', // Replace with your frontend URL
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
