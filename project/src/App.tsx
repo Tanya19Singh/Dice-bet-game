@@ -84,7 +84,7 @@ function App() {
     }));
   
     try {
-      const response = await axios.post('http://localhost:5000/roll-dice', {
+      const response = await axios.post('https://dice-bet-game-6.onrender.com/roll-dice', {
         betAmount: gameState.betAmount
       });
   
