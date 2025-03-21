@@ -56,7 +56,7 @@ const SliderControl: React.FC<SliderControlProps> = ({
           {rollValue !== null && !isRolling && (
             <div 
               className="absolute top-1/2 transform -translate-y-12 -translate-x-1/2 z-20"
-              style={{ left: `${rollValue}%` }}
+              style={{ left: `${rollValue*16.66}%` }}
             >
               <div className="w-12 h-12 flex items-center justify-center z-50">
                 <svg width="48" height="48" viewBox="0 0 48 48">
@@ -99,7 +99,7 @@ const SliderControl: React.FC<SliderControlProps> = ({
                     fontSize="12" 
                     fontWeight="bold"
                   >
-                    {rollValue.toFixed(2)}
+                    {rollValue*16.66.toFixed(2)}
                   </text>
                 </svg>
               </div>
