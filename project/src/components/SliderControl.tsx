@@ -99,7 +99,7 @@ const SliderControl: React.FC<SliderControlProps> = ({
                     fontSize="12" 
                     fontWeight="bold"
                   >
-                    {rollValue*16.66.toFixed(2)}
+                    {rollValue*16.66}
                   </text>
                 </svg>
               </div>
